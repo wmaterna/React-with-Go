@@ -11,5 +11,6 @@ func Init() *echo.Echo {
 	e.POST("/users", API.AddUser)
 	e.GET("/products", API.GetProducts)
 	e.POST("/products", API.AddProducts)
+	e.POST("/order", API.AddOrder)
 	return e
 }

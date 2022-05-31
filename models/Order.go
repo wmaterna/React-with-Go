@@ -3,6 +3,8 @@ import "gorm.io/gorm"
 
 type Order struct {
 	gorm.Model
-	// DateOfOrder time.Time
-	UserID uint
+	name string
+	cardNo string
+	cvc string
+	date string
 }
